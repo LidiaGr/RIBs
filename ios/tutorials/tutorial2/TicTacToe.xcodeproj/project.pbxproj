@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59DFBF9D26BBE3D600B28B71 /* LoggedInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBF9A26BBE3D600B28B71 /* LoggedInRouter.swift */; };
+		59DFBF9E26BBE3D600B28B71 /* LoggedInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBF9B26BBE3D600B28B71 /* LoggedInBuilder.swift */; };
+		59DFBF9F26BBE3D600B28B71 /* LoggedInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBF9C26BBE3D600B28B71 /* LoggedInInteractor.swift */; };
+		59DFBFAF26BBEFF900B28B71 /* OffGameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBFAB26BBEFF900B28B71 /* OffGameRouter.swift */; };
+		59DFBFB026BBEFF900B28B71 /* OffGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBFAC26BBEFF900B28B71 /* OffGameViewController.swift */; };
+		59DFBFB126BBEFF900B28B71 /* OffGameBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBFAD26BBEFF900B28B71 /* OffGameBuilder.swift */; };
+		59DFBFB226BBEFF900B28B71 /* OffGameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBFAE26BBEFF900B28B71 /* OffGameInteractor.swift */; };
+		59DFBFB426BC2CC200B28B71 /* RootRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBFB326BC2CC200B28B71 /* RootRouterTests.swift */; };
 		7EDD59501FA13579005EC8B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD594F1FA13579005EC8B2 /* Default-568h@2x.png */; };
 		902781EB24A674D0368A3917 /* Pods_TicTacToeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D008FD5813F6BDE9C4955F5C /* Pods_TicTacToeTests.framework */; };
 		AEFA38604D7D1E4A08E9A7FA /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99EABB5C8D25341027C05C5 /* Pods_TicTacToe.framework */; };
-		E9C3E1EE1FA1C07F00781364 /* DELETE_ME.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C3E1EB1FA1BF9700781364 /* DELETE_ME.swift */; };
 		E9C86D8A1FA3586500B61DF6 /* TicTacToeMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C86D891FA3586500B61DF6 /* TicTacToeMocks.swift */; };
 		E9C86D921FA35F8F00B61DF6 /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D441F972FE400D84847 /* LoggedOutInteractor.swift */; };
 		E9CB1D521F97303800D84847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D351F972FD500D84847 /* AppDelegate.swift */; };
@@ -43,6 +50,14 @@
 /* Begin PBXFileReference section */
 		125BC081886F3825A4B7C3E3 /* Pods-TicTacToeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToeTests/Pods-TicTacToeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1CC7657EC6690F406564B055 /* Pods-TicTacToeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToeTests/Pods-TicTacToeTests.release.xcconfig"; sourceTree = "<group>"; };
+		59DFBF9A26BBE3D600B28B71 /* LoggedInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInRouter.swift; sourceTree = "<group>"; };
+		59DFBF9B26BBE3D600B28B71 /* LoggedInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInBuilder.swift; sourceTree = "<group>"; };
+		59DFBF9C26BBE3D600B28B71 /* LoggedInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInInteractor.swift; sourceTree = "<group>"; };
+		59DFBFAB26BBEFF900B28B71 /* OffGameRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameRouter.swift; sourceTree = "<group>"; };
+		59DFBFAC26BBEFF900B28B71 /* OffGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameViewController.swift; sourceTree = "<group>"; };
+		59DFBFAD26BBEFF900B28B71 /* OffGameBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameBuilder.swift; sourceTree = "<group>"; };
+		59DFBFAE26BBEFF900B28B71 /* OffGameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameInteractor.swift; sourceTree = "<group>"; };
+		59DFBFB326BC2CC200B28B71 /* RootRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterTests.swift; sourceTree = "<group>"; };
 		7EDD594F1FA13579005EC8B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		833B15CABE3CBE09720A0409 /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
 		A791EBDAD202886E66137B9C /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,7 +65,6 @@
 		D008FD5813F6BDE9C4955F5C /* Pods_TicTacToeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9894B4A1F972CC500688FCB /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9894B591F972CC500688FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9C3E1EB1FA1BF9700781364 /* DELETE_ME.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DELETE_ME.swift; sourceTree = "<group>"; };
 		E9C3E1EC1FA1BF9700781364 /* LoggedInComponent+TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+TicTacToe.swift"; sourceTree = "<group>"; };
 		E9C3E1ED1FA1BF9700781364 /* LoggedInComponent+OffGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+OffGame.swift"; sourceTree = "<group>"; };
 		E9C86D871FA3586500B61DF6 /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +108,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59DFBFAA26BBEFEB00B28B71 /* OffGame */ = {
+			isa = PBXGroup;
+			children = (
+				59DFBFAB26BBEFF900B28B71 /* OffGameRouter.swift */,
+				59DFBFAC26BBEFF900B28B71 /* OffGameViewController.swift */,
+				59DFBFAD26BBEFF900B28B71 /* OffGameBuilder.swift */,
+				59DFBFAE26BBEFF900B28B71 /* OffGameInteractor.swift */,
+			);
+			path = OffGame;
+			sourceTree = "<group>";
+		};
 		59F943336420DE07CA779F6F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +161,7 @@
 		E9894B4C1F972CC500688FCB /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				59DFBFAA26BBEFEB00B28B71 /* OffGame */,
 				7EDD59511FA135E9005EC8B2 /* Resources */,
 				E9CB1D331F972FD500D84847 /* AppStart */,
 				E9CB1D471F972FE500D84847 /* LoggedIn */,
@@ -152,6 +178,7 @@
 			children = (
 				E9C86D891FA3586500B61DF6 /* TicTacToeMocks.swift */,
 				E9C86D8B1FA3586500B61DF6 /* Info.plist */,
+				59DFBFB326BC2CC200B28B71 /* RootRouterTests.swift */,
 			);
 			path = TicTacToeTests;
 			sourceTree = "<group>";
@@ -203,9 +230,11 @@
 		E9CB1D471F972FE500D84847 /* LoggedIn */ = {
 			isa = PBXGroup;
 			children = (
-				E9C3E1EB1FA1BF9700781364 /* DELETE_ME.swift */,
 				E9C3E1ED1FA1BF9700781364 /* LoggedInComponent+OffGame.swift */,
 				E9C3E1EC1FA1BF9700781364 /* LoggedInComponent+TicTacToe.swift */,
+				59DFBF9A26BBE3D600B28B71 /* LoggedInRouter.swift */,
+				59DFBF9B26BBE3D600B28B71 /* LoggedInBuilder.swift */,
+				59DFBF9C26BBE3D600B28B71 /* LoggedInInteractor.swift */,
 			);
 			path = LoggedIn;
 			sourceTree = "<group>";
@@ -414,6 +443,8 @@
 				E9CB1D521F97303800D84847 /* AppDelegate.swift in Sources */,
 				E9CB1D681F9730F300D84847 /* TicTacToeInteractor.swift in Sources */,
 				E9C86D921FA35F8F00B61DF6 /* LoggedOutInteractor.swift in Sources */,
+				59DFBF9D26BBE3D600B28B71 /* LoggedInRouter.swift in Sources */,
+				59DFBF9E26BBE3D600B28B71 /* LoggedInBuilder.swift in Sources */,
 				E9CB1D5B1F9730E700D84847 /* LoggedOutRouter.swift in Sources */,
 				E9CB1D641F9730EF00D84847 /* RootInteractor.swift in Sources */,
 				E9CB1D631F9730EF00D84847 /* RootComponent+LoggedOut.swift in Sources */,
@@ -422,12 +453,16 @@
 				E9CB1D671F9730F300D84847 /* TicTacToeBuilder.swift in Sources */,
 				E9CB1D6A1F9730F300D84847 /* TicTacToeViewController.swift in Sources */,
 				E9CB1D531F97305A00D84847 /* AppComponent.swift in Sources */,
+				59DFBFB126BBEFF900B28B71 /* OffGameBuilder.swift in Sources */,
+				59DFBF9F26BBE3D600B28B71 /* LoggedInInteractor.swift in Sources */,
+				59DFBFB026BBEFF900B28B71 /* OffGameViewController.swift in Sources */,
 				E9CB1D621F9730EF00D84847 /* RootComponent+LoggedIn.swift in Sources */,
 				E9CB1D5C1F9730E700D84847 /* LoggedOutViewController.swift in Sources */,
+				59DFBFAF26BBEFF900B28B71 /* OffGameRouter.swift in Sources */,
 				E9CB1D691F9730F300D84847 /* TicTacToeRouter.swift in Sources */,
+				59DFBFB226BBEFF900B28B71 /* OffGameInteractor.swift in Sources */,
 				E9CB1D651F9730EF00D84847 /* RootRouter.swift in Sources */,
 				E9CB1D661F9730EF00D84847 /* RootViewController.swift in Sources */,
-				E9C3E1EE1FA1C07F00781364 /* DELETE_ME.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +470,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DFBFB426BC2CC200B28B71 /* RootRouterTests.swift in Sources */,
 				E9C86D8A1FA3586500B61DF6 /* TicTacToeMocks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
