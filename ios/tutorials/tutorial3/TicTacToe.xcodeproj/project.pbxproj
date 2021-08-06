@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59DFBFB626BD31E500B28B71 /* ScoreStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBFB526BD31E500B28B71 /* ScoreStream.swift */; };
+		59DFBFB826BD45FC00B28B71 /* LoggedInComponent+OffGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DFBFB726BD45FC00B28B71 /* LoggedInComponent+OffGame.swift */; };
 		7EDD59501FA13579005EC8B2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD594F1FA13579005EC8B2 /* Default-568h@2x.png */; };
 		AEFA38604D7D1E4A08E9A7FA /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B99EABB5C8D25341027C05C5 /* Pods_TicTacToe.framework */; };
 		E9CB1D521F97303800D84847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D351F972FD500D84847 /* AppDelegate.swift */; };
 		E9CB1D531F97305A00D84847 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D341F972FD500D84847 /* AppComponent.swift */; };
 		E9CB1D541F9730E400D84847 /* LoggedInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D481F972FE500D84847 /* LoggedInBuilder.swift */; };
-		E9CB1D551F9730E400D84847 /* LoggedInComponent+OffGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D491F972FE500D84847 /* LoggedInComponent+OffGame.swift */; };
 		E9CB1D561F9730E400D84847 /* LoggedInComponent+TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D4A1F972FE500D84847 /* LoggedInComponent+TicTacToe.swift */; };
 		E9CB1D571F9730E400D84847 /* LoggedInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D4B1F972FE500D84847 /* LoggedInInteractor.swift */; };
 		E9CB1D581F9730E400D84847 /* LoggedInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB1D4C1F972FE500D84847 /* LoggedInRouter.swift */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59DFBFB526BD31E500B28B71 /* ScoreStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreStream.swift; sourceTree = "<group>"; };
+		59DFBFB726BD45FC00B28B71 /* LoggedInComponent+OffGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+OffGame.swift"; sourceTree = "<group>"; };
 		7EDD594F1FA13579005EC8B2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		833B15CABE3CBE09720A0409 /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
 		A791EBDAD202886E66137B9C /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,7 +63,6 @@
 		E9CB1D451F972FE400D84847 /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
 		E9CB1D461F972FE400D84847 /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
 		E9CB1D481F972FE500D84847 /* LoggedInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInBuilder.swift; sourceTree = "<group>"; };
-		E9CB1D491F972FE500D84847 /* LoggedInComponent+OffGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+OffGame.swift"; sourceTree = "<group>"; };
 		E9CB1D4A1F972FE500D84847 /* LoggedInComponent+TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+TicTacToe.swift"; sourceTree = "<group>"; };
 		E9CB1D4B1F972FE500D84847 /* LoggedInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInInteractor.swift; sourceTree = "<group>"; };
 		E9CB1D4C1F972FE500D84847 /* LoggedInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInRouter.swift; sourceTree = "<group>"; };
@@ -180,10 +182,11 @@
 			isa = PBXGroup;
 			children = (
 				E9CB1D481F972FE500D84847 /* LoggedInBuilder.swift */,
-				E9CB1D491F972FE500D84847 /* LoggedInComponent+OffGame.swift */,
 				E9CB1D4A1F972FE500D84847 /* LoggedInComponent+TicTacToe.swift */,
 				E9CB1D4B1F972FE500D84847 /* LoggedInInteractor.swift */,
 				E9CB1D4C1F972FE500D84847 /* LoggedInRouter.swift */,
+				59DFBFB526BD31E500B28B71 /* ScoreStream.swift */,
+				59DFBFB726BD45FC00B28B71 /* LoggedInComponent+OffGame.swift */,
 			);
 			path = LoggedIn;
 			sourceTree = "<group>";
@@ -330,8 +333,10 @@
 				E9CB1D681F9730F300D84847 /* TicTacToeInteractor.swift in Sources */,
 				E9CB1D5B1F9730E700D84847 /* LoggedOutRouter.swift in Sources */,
 				E9CB1D571F9730E400D84847 /* LoggedInInteractor.swift in Sources */,
+				59DFBFB826BD45FC00B28B71 /* LoggedInComponent+OffGame.swift in Sources */,
 				E9CB1D5D1F9730EB00D84847 /* OffGameBuilder.swift in Sources */,
 				E9CB1D641F9730EF00D84847 /* RootInteractor.swift in Sources */,
+				59DFBFB626BD31E500B28B71 /* ScoreStream.swift in Sources */,
 				E9CB1D631F9730EF00D84847 /* RootComponent+LoggedOut.swift in Sources */,
 				E9CB1D591F9730E700D84847 /* LoggedOutBuilder.swift in Sources */,
 				E9CB1D581F9730E400D84847 /* LoggedInRouter.swift in Sources */,
@@ -340,7 +345,6 @@
 				E9CB1D671F9730F300D84847 /* TicTacToeBuilder.swift in Sources */,
 				E9CB1D6A1F9730F300D84847 /* TicTacToeViewController.swift in Sources */,
 				E9CB1D541F9730E400D84847 /* LoggedInBuilder.swift in Sources */,
-				E9CB1D551F9730E400D84847 /* LoggedInComponent+OffGame.swift in Sources */,
 				E9CB1D531F97305A00D84847 /* AppComponent.swift in Sources */,
 				E9CB1D621F9730EF00D84847 /* RootComponent+LoggedIn.swift in Sources */,
 				E9CB1D5C1F9730E700D84847 /* LoggedOutViewController.swift in Sources */,

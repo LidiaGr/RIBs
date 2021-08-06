@@ -25,6 +25,11 @@ protocol LoggedInDependencyTicTacToe: Dependency {
 }
 
 extension LoggedInComponent: TicTacToeDependency {
-
+    var playerName1: String {
+        return player1Name
+    }    
+    var playerName2: String {
+        return player2Name
+    }
     // TODO: Implement properties to provide for TicTacToe scope.
 }

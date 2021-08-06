@@ -1,17 +1,9 @@
 //
-//  Copyright (c) 2017. Uber Technologies
+//  LoggedInComponent+OffGame.swift
+//  TicTacToe
 //
-//  Licensed under the Apache License, Version 2.0 (the "License");
-//  you may not use this file except in compliance with the License.
-//  You may obtain a copy of the License at
-//
-//  http://www.apache.org/licenses/LICENSE-2.0
-//
-//  Unless required by applicable law or agreed to in writing, software
-//  distributed under the License is distributed on an "AS IS" BASIS,
-//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-//  See the License for the specific language governing permissions and
-//  limitations under the License.
+//  Created by L.Grigoreva on 06.08.2021.
+//  Copyright © 2021 Uber. All rights reserved.
 //
 
 import RIBs
@@ -19,12 +11,12 @@ import RIBs
 /// The dependencies needed from the parent scope of LoggedIn to provide for the OffGame scope.
 // TODO: Update LoggedInDependency protocol to inherit this protocol.
 protocol LoggedInDependencyOffGame: Dependency {
-
     // TODO: Declare dependencies needed from the parent scope of LoggedIn to provide dependencies
     // for the OffGame scope.
 }
 
 extension LoggedInComponent: OffGameDependency {
-
-    // TODO: Implement properties to provide for OffGame scope.
+    var scoreStream: ScoreStream {
+        return mutableScoreStream
+    }
 }
